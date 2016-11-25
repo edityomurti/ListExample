@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="android.netclub.listexample.activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example of List in Android"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/btn_simple_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Simple ListView"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:background="@drawable/rect_rounded_fill_cyan"/>
+
+    <TextView
+        android:id="@+id/btn_custom_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Custom ListView"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:background="@drawable/rect_rounded_fill_cyan"/>
+
+    <TextView
+        android:id="@+id/btn_recyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="RecyclerView"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:padding="15dp"
+        android:background="@drawable/rect_rounded_fill_cyan"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/forkom_tj"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
